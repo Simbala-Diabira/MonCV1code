@@ -26,16 +26,21 @@
 /*La partie left-side*/
 
 .imgBx{
-    position: relative;
-    width: 250px;
+    /*position: relative;*/
+    width: 210px;
     height: 250px;
-    padding-top: 30px;
-    padding-left: 90px;
+    /*padding-top: 30px;*/
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-left: 40px;
     padding-right: -100px;
 }
 img{
-    height:250px;
-    width:200px;
+   /* height:250px;
+    width:220px;*/
+    height:260px;
+    width:220px;
+    padding-left: -40px;
 }
 .adresse ul li{
     position: relative;
@@ -123,6 +128,7 @@ h1 {
 }
 .section2{
     padding-left: 10px;
+    padding: 5px;
 }
 .min-title-form{
     color: #000000;
@@ -142,14 +148,16 @@ h1 {
     padding-right: 100px;
     padding-left: 0px;
     padding-inline: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     min-width: 300px;
     max-width: 83%;
 }
 
 /*La partie responsive*/
 
-@media screen and (max-width: 912px)
+@media screen and (max-width: 500px)
 {
     .container{
         display: grid;
